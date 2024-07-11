@@ -1,10 +1,12 @@
 import React from 'react'
-import './portfolio.css'
+import './project.css'
 import IMG1 from '../../assets/task.png'
 import IMG2 from '../../assets/todo.png'
+import IMG3 from '../../assets/weather.png'
 import IMG4 from '../../assets/machine.png'
 import IMG5 from '../../assets/portfolio_project.png'
 import IMG6 from '../../assets/football.png'
+import Job from '../../assets/Job.png'
 
 const data = [
     
@@ -17,10 +19,10 @@ const data = [
   },
   {
     id: 2,
-    image: IMG2,
-    title: 'Todo Management App',
-    github: 'https://github.com/Prateek-rajput-007/Todo-Management-App',
-    demo: 'https://react-cool-todo-app.netlify.app/'
+    image: Job,
+    title: 'Job Seeking Application',
+    github: 'https://github.com/Prateek-rajput-007/Job-Seeking-',
+    demo: 'https://www.youtube.com/watch?v=C_9-729awzg'
   },
   {
     id: 3,
@@ -38,10 +40,24 @@ const data = [
   },
   {
     id: 5,
+    image: IMG3,
+    title: 'Weather App',
+    github: 'https://github.com/Prateek-rajput-007/Machine-Learning-Projects',
+    demo: 'https://weatherifyapp.netlify.app/'
+  },
+  {
+    id: 6,
     image: IMG4,
     title: 'Machine Learning',
     github: 'https://github.com/Prateek-rajput-007/Machine-Learning-Projects',
     demo: 'https://github.com/Prateek-rajput-007/Machine-Learning-Projects'
+  },
+  {
+    id: 7,
+    image: IMG2,
+    title: 'Todo Management App',
+    github: 'https://github.com/Prateek-rajput-007/Todo-Management-App',
+    demo: 'https://react-cool-todo-app.netlify.app/'
   }
 
 
